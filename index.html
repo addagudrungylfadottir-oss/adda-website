@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adda Guðrún Gylfadóttir</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header>
+    <nav>
+      <span class="nav-name">Adda Gylfadóttir</span>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+          <li><a href="#publications" data-i18n="nav.publications">Publications</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+        <div class="lang-switcher">
+          <button onclick="setLang('en')" id="btn-en">EN</button>
+          <button onclick="setLang('is')" id="btn-is">IS</button>
+          <button onclick="setLang('sv')" id="btn-sv">SV</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>Adda Guðrún<br/>Gylfadóttir</h1>
+        <p class="tagline" data-i18n="hero.tagline">Researcher · Sociologist · Data Analyst</p>
+        <p class="hero-desc" data-i18n="hero.desc">MSc in Sociology, University of Oxford. Passionate about research, equality, and turning data into insight.</p>
+        <div class="hero-actions">
+          <a href="cv.pdf" download class="btn-primary" data-i18n="hero.download">Download CV</a>
+          <a href="#contact" class="btn-secondary" data-i18n="hero.contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="photo.jpg" alt="Adda Guðrún Gylfadóttir" id="profile-photo" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2 data-i18n="about.title">About me</h2>
+      <p data-i18n="about.body">I am a sociologist with an MSc from the University of Oxford and a BA from the University of Iceland, with a strong background in qualitative and quantitative research, data analysis, and academic writing. Currently I work at Alda, an Icelandic software company, in research and development — covering topics ranging from gender equality to software development and micro-learning. I am fluent in Icelandic and English, highly proficient in Swedish, and have a working knowledge of Danish and Norwegian.</p>
+      <div class="skills-grid">
+        <div class="skill-chip" data-i18n="skill.research">Research & analysis</div>
+        <div class="skill-chip" data-i18n="skill.quant">Quantitative methods</div>
+        <div class="skill-chip" data-i18n="skill.qual">Qualitative methods</div>
+        <div class="skill-chip">R / SPSS / STATA</div>
+        <div class="skill-chip" data-i18n="skill.writing">Academic writing</div>
+        <div class="skill-chip" data-i18n="skill.equality">Equality & diversity</div>
+        <div class="skill-chip" data-i18n="skill.data">Data visualisation</div>
+        <div class="skill-chip" data-i18n="skill.teaching">Teaching & tutoring</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="alt-bg">
+    <div class="container">
+      <h2 data-i18n="edu.title">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">2021–2022</span>
+            <span class="timeline-place">Oxford, UK</span>
+          </div>
+          <div class="timeline-body">
+            <h3>University of Oxford</h3>
+            <p data-i18n="edu.oxford">MSc in Sociology</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">2018–2021</span>
+            <span class="timeline-place">Reykjavík</span>
+          </div>
+          <div class="timeline-body">
+            <h3>University of Iceland</h3>
+            <p data-i18n="edu.hi">BA in Sociology — <em data-i18n="edu.award">awarded prize for outstanding thesis</em></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <h2 data-i18n="exp.title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">2022–</span>
+            <span class="timeline-place">Reykjavík</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Alda</h3>
+            <p class="role" data-i18n="exp.alda.role">Specialist — Research & Development</p>
+            <p data-i18n="exp.alda.desc">Research, software development support, writing, micro-learning production on equality topics, and data analysis across a wide variety of projects at an Icelandic software company.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">2021–2022</span>
+            <span class="timeline-place">Reykjavík</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Varða – Labour Market Research Institute</h3>
+            <p class="role" data-i18n="exp.varda.role">Researcher</p>
+            <p data-i18n="exp.varda.desc">Report writing, qualitative and quantitative data analysis, and data presentation. Projects included two reports on the status of immigrants in the Icelandic labour market with a focus on the NEET group.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">2020–2021</span>
+            <span class="timeline-place">Reykjavík</span>
+          </div>
+          <div class="timeline-body">
+            <h3 data-i18n="exp.covid.title">Informed or Misleading: COVID-19 Media Analysis</h3>
+            <p class="role" data-i18n="exp.covid.role">Researcher (Rannís grant)</p>
+            <p data-i18n="exp.covid.desc">Received a competitive Rannís grant with colleagues to analyse Icelandic media coverage of COVID-19, producing a large dataset available for ongoing social science research.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">2020</span>
+            <span class="timeline-place">Reykjavík</span>
+          </div>
+          <div class="timeline-body">
+            <h3 data-i18n="exp.ses.title">Co-parenting After Separation (SES)</h3>
+            <p class="role" data-i18n="exp.ses.role">Statistics & Methodology Lead</p>
+            <p data-i18n="exp.ses.desc">Collaborated with social workers to evaluate a Danish-inspired mediation model for separated parents. Assessed how well the model translates into the Icelandic context.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">2020–2021</span>
+            <span class="timeline-place">Reykjavík</span>
+          </div>
+          <div class="timeline-body">
+            <h3 data-i18n="exp.tutor.title">Private Tutor — Statistics & Methodology</h3>
+            <p data-i18n="exp.tutor.desc">Individualised tutoring in statistics and research methodology for University of Iceland students.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications" class="alt-bg">
+    <div class="container">
+      <h2 data-i18n="pub.title">Publications</h2>
+      <div class="publication">
+        <p class="pub-citation">Gylfadottir, A. G., Ólafsson, J. G., & Ólafsdóttir, S. (2021). Framing the onset of the COVID-19 pandemic in the Icelandic media: What were the key concerns and who could raise them? <em>Icelandic Review of Politics & Administration</em>, 17(1), 131–152.</p>
+        <a href="http://www.irpa.is/article/view/a.2021.17.1.6" target="_blank" rel="noopener" class="pub-link" data-i18n="pub.read">Read article →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container contact-inner">
+      <h2 data-i18n="contact.title">Get in touch</h2>
+      <p data-i18n="contact.body">I am open to new opportunities in research, policy, data analysis, and related fields. Feel free to reach out.</p>
+      <div class="contact-links">
+        <a href="mailto:addagudrungylfadottir@gmail.com" class="contact-item">
+          <span class="contact-icon">✉</span>
+          addagudrungylfadottir@gmail.com
+        </a>
+        <a href="tel:+3547760994" class="contact-item">
+          <span class="contact-icon">☏</span>
+          +354 776 0994
+        </a>
+        <a href="cv.pdf" download class="contact-item">
+          <span class="contact-icon">↓</span>
+          <span data-i18n="contact.cv">Download CV (PDF)</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Adda Guðrún Gylfadóttir · addagylfa.com</p>
+  </footer>
+
+  <script src="i18n.js"></script>
+</body>
+</html>
