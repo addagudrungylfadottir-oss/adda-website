@@ -41,7 +41,7 @@ const translations = {
     "pub.title": "Publications",
     "pub.read": "Read article →",
     "contact.title": "Get in touch",
-    "contact.body": "I am open to new opportunities in research, learning design, content, data and related fields. Feel free to reach out.",
+    "contact.body": "I am open to new opportunities across leadership, research, content, HR, technology, data and project management. Feel free to reach out.",
     "contact.cv": "Download CV (PDF)",
   },
   is: {
@@ -86,7 +86,7 @@ const translations = {
     "pub.title": "Birtingar",
     "pub.read": "Lesa grein →",
     "contact.title": "Hafa samband",
-    "contact.body": "Ég er opin fyrir nýjum tækifærum í rannsóknum, námshönnun, efnisgerð, gagnavinnu og skyldum sviðum. Endilega hafðu samband.",
+    "contact.body": "Ég er opin fyrir nýjum tækifærum í leiðtogahlutverkum, rannsóknum, efnisgerð, mannauðsmálum, tækni, gagnavinnu og verkefnastjórnun. Endilega hafðu samband.",
     "contact.cv": "Hlaða niður ferilskrá (PDF)",
   },
   sv: {
@@ -131,7 +131,7 @@ const translations = {
     "pub.title": "Publikationer",
     "pub.read": "Läs artikel →",
     "contact.title": "Kontakta mig",
-    "contact.body": "Jag är öppen för nya möjligheter inom forskning, lärdesign, innehåll, data och relaterade områden. Tveka inte att höra av dig.",
+    "contact.body": "Jag är öppen för nya möjligheter inom ledarskap, forskning, innehåll, HR, teknik, data och projektledning. Tveka inte att höra av dig.",
     "contact.cv": "Ladda ned CV (PDF)",
   }
 };
